@@ -5,7 +5,7 @@
 
 Salad's earning page still only displays the machine ID, and provides Chefs with no method to manually customize these machine IDs.
 
-Our project aims to alleviate this issue by providing a simple, intuative and functional solution.
+Our project aims to alleviate this issue by providing a simple, intuitive and functional solution.
 
 ![extension-preview](./images/preview.png)
 
@@ -40,8 +40,7 @@ Web extensions can be dangerous, this is why we wanted to let you know the thing
 ‎
 - Salad's Machine Renamer **does**:
   - Locally store (within your browser) the original machine ID, the new name you have set
-  - Change the _web content_ you see to reflect your changed machine ID
-  - Only work locally with what it is provided
+  - Change the _web content_ you see to reflect your changed machine name
   - Only attempt to load the script on pages matching this URL pattern `http(s)://salad.com/earn/*`
 
 >Note: this project is under development. We will abide by the definitions above, but cannot guarantee this won't change in the future.
@@ -52,9 +51,9 @@ Web extensions can be dangerous, this is why we wanted to let you know the thing
 
 This project was mainly created to allow users to manually customize their machine names and provide persistent support for them.
 
-As of today, here are available features:
-- Rename a machine ID from your browser
-- See references to this machine ID be renamed to your selection
+As of today, here are the available features:
+- Rename a machine ID to a custom name on your browser
+- See references to this machine ID be renamed to your custom text on the earn pages
 - Set once, keep forever - we store your selection locally to automatically update the values even when you reload the page!
 
 ## Contributing :heart:
@@ -67,7 +66,7 @@ In order to contribute, please open an issue and provide detail about your comme
 ```bash
 [bug|suggestion|comment] A summarized description of your issue
 ```
-Pick one between bug, suggestion, or comment
+Pick one between bug, suggestion, or comment.
 
 - Content:
 ```bash
@@ -75,21 +74,21 @@ Pick one between bug, suggestion, or comment
 [Observed] : Explain what behavior you are seeing when using the extension
 [Expected] : Explain what you were expecting to happen
 [Attempted] : Have you attempted any debugging steps? Has anything worked?
-[Additional] : Anything else than can help us?
+[Additional] : Anything else that can help us?
 ```
 Try to fill in all fields to give us context! You can omit tags that don't apply, for example `Attempted` in the case of a `suggestion` might not be required.
 
-**Are you more technically inclined?**
+**Are you more technically inclined?**<br>
 If you're comfortable with JavaScript / Web Development / Extension Development, you're welcome to directly submit a pull request.
 
 Make sure to include all relevant information about what the request aims to achieve, actually does, or anything relevant for our review. We may contact you if more information is required.
 
 ## Salad? Machine IDs? :link:
 
-Salad is a distributed Cloud computing platform - users can earn balance from their machine by contributing their computing powers to paying customers.
+Salad is a distributed Cloud computing platform - users can earn balance by contributing their machine's computing power to our paying customers.<br>
 Learn more here: https://salad.com/
 
-Machine IDs are unique identifiers for a machine on the network. These are today unmodifiable, thus this project :smile:!
+Machine IDs are unique identifiers for a machine on the network. Salad has not implemented a method to use custom names on these machine IDs, thus this project :smile:!<br>
 https://salad.com/store
 
 ## Licensing :scroll:
