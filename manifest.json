@@ -1,8 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Salad's Machine Renamer",
-  "version": "1.0",
-
+  "version": "1.1",
   "description": "Display machine names instead of machine IDs in the Salad website",
   
   "content_scripts": [
@@ -17,6 +16,12 @@
   "icons": {
     "48": "icons/logo-48.png",
     "96": "icons/logo-96.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{37a01847-eee0-4da1-8caf-0c2ed4b7ad4f}"
+    }
   }
 
 }

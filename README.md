@@ -19,11 +19,13 @@ There are 2 main ways for you to install the extension:
 
 - In the top right of firefox, click the puzzle icon, then "Manage extensions"
 - Scroll to the bottom and click on "Find more add-ons"
-- In the search bar, look for <"Something">
+- In the search bar, look for `Salad's Machine Renamer`
+- Or use the direct link : https://addons.mozilla.org/en-US/firefox/addon/salads-machine-renamer/
+- Click "Add to Firefox"
 
 ##### Installing from source
 
-- Guide coming soon
+- Coming soon!
 
 ## Permissions & Security :lock:
 
@@ -55,7 +57,7 @@ As of today, here are available features:
 - See references to this machine ID be renamed to your selection
 - Set once, keep forever - we store your selection locally to automatically update the values even when you reload the page!
 
-## Contributing <3
+## Contributing :heart:
 
 Do you like this project and want to contribute to it? Suggestions, fixes, and comments are welcome!
 
@@ -87,7 +89,7 @@ Make sure to include all relevant information about what the request aims to ach
 Salad is a distributed Cloud computing platform - users can earn balance from their machine by contributing their computing powers to paying customers.
 Learn more here: https://salad.com/
 
-Machine IDs are unique identifiers for a machine on the network. These are today unmodifiable, thus this project :)!
+Machine IDs are unique identifiers for a machine on the network. These are today unmodifiable, thus this project :smile:!
 https://salad.com/store
 
 ## Licensing :scroll:
