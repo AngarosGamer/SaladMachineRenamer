@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Salad's Machine Renamer",
+  "version": "1.0",
+
+  "description": "Display machine names instead of machine IDs in the Salad website",
+  
+  "content_scripts": [
+    {
+      "matches": ["*://salad.com/earn/*"],
+      "js": ["renamer.js"]
+    }
+  ],
+  
+  "permissions": ["storage"],
+  
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"
+  }
+
+}
