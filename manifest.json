@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Salad's Machine Renamer",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Display machine names instead of machine IDs in the Salad website",
   
   "content_scripts": [

@@ -1,7 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\
 |                       Created by Angaros                        |
 |                                                                 |
-|                    Revision 1.0 - 05/16/2025                    |
+|                    Revision 1.2 - 05/20/2025                    |
  \* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 // Debug
@@ -12,6 +12,7 @@ const selectors = [ // Current known selectors that contain the machine ID
     "span.css-15d7bl7.ei767vo0",
     "span.css-fxzn2p.ei767vo0",
     "div.c01104",
+    "div.c0196",
     "span.recharts-tooltip-item-name"
   ];
 
